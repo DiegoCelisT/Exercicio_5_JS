@@ -1,3 +1,5 @@
-Vamos a consultar uma API pública
+Vamos a praticar o uso de uma API pública.
 
-Coletaremos dados de um formulario para consultar uma API e depois exibir os resultados
+Nesse caso eu criei uma página onde você pode procurar por pokemons e receber uma foto dele e ele vai te cumprimentar!
+
+Vai lá completar a sua pokedex!
