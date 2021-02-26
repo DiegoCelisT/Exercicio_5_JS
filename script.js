@@ -8,7 +8,6 @@ function Selecionando_pokemon (event){
     pokemon_selecionado.value = "";
 
     pokemon = `https://pokeapi.co/api/v2/pokemon/${poke_nome}`
-
     let Alldata
     let Nome
     let Pedaço_do_Nome
@@ -43,7 +42,16 @@ function Selecionando_pokemon (event){
         `
         
     })
-    .catch (erro => console.log(erro))
+    .catch (erro => {
+        console.log(erro);
+        let elemento = document.getElementById ('meu_pokemon');
+        elemento.innerHTML = `
+
+        <span style="   -webkit-text-stroke: 1px black;
+                        color: rgb(255, 203, 5);
+                        font-size: 70px;"> Opa! Esse pokemón ainda não está na minha pokedex :( 
+        </span>`
+    })
     
 }
 
