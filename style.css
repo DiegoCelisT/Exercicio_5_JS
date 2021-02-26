@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*fim do reset*/
+
+/*Añadiendo fuente personalizada: */
+
+@font-face{
+    font-family: 'A minha fonte irada';
+    src: url(Gamer.ttf)
+}
+
+html{
+    font-family: 'A minha fonte irada';
+    background-color: rgb(170, 22, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+header, h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 52px;
+}
+
+label{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+input{
+    
+}
+
+label p{
+    font-size: 35px;
+    color: white
+    
+}
+
+button{
+    font-size: 32px;
+    font-family: 'A minha fonte irada';
+    background-color: rgb(255, 203, 5);
+    padding: 5px;
+}
+
+input{
+    font-family: 'A minha fonte irada';
+    font-size: 26px;
+    color: rgb(31, 57, 117);
+    padding: 5px;
+}
+
+img{
+    font-size: 52px;
+}

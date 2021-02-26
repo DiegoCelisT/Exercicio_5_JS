@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 5 - JS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="Images/pokemon-png-logo.png" height="80px" alt="logo-de-pokemon">
+    </header>
+    
+    <main>
+        <h1>Hoje vamos fazer um safari para conhecer novos pokémon!</h1>
     <form onsubmit="Selecionando_pokemon (event)" id="formulario_pokemon">
         <label>
-            Escreva o nome de um pokemon
-            <p>Ou se acha que está com sorte um número de 1 a 600!</p>
-            <input type="text" id="poke_input" placeholder="Nome do pokemon ou número" required>
+            <p>Escreva o nome de um pokémon que você quera conhecer,</p>
+            <p>Ou se acha que está com sorte um número de 1 a 649!</p>
+            <input type="text" id="poke_input" placeholder="Nome do pokemon ou um número até 649" required>
             <button type="submit" id="poke_botão">Vamos!</button> 
         </label>
 
@@ -25,5 +32,8 @@
 </div>
 
     <script src="script.js"></script>
+
+</main>
+
 </body>
 </html>
